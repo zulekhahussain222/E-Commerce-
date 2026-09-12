@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop — Sanira Clothing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="Sanira logo.jpg" alt="Sanira Clothing Logo">
+      <span>Sanira Clothing</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Shop</a>
+      <a href="products.html#bridal">New Arrivals</a>
+      <a href="cart.html" class="cart-link">Cart <span class="cart-count">0</span></a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <span class="eyebrow reveal">Shop All</span>
+    <h1 class="reveal">Sanira Dupatta Collection</h1>
+    <p class="reveal" style="color:var(--ink-soft);max-width:520px">Browse our collections and add your favorite dupatta to the cart.</p>
+
+    <div class="filter-bar reveal">
+      <div class="chip active" data-filter="all">Premium</div>
+      <div class="chip" data-filter="organza">Organza</div>
+      <div class="chip" data-filter="chiffon">Chiffon</div>
+      <div class="chip" data-filter="bridal">Bridal</div>
+      <div class="chip" data-filter="printed">Printed</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="product-grid">
+
+      <div class="product-card reveal" data-category="organza">
+        <div class="product-media"><img src="product 1.jpg" alt="Gotta Edition"></div>
+        <div class="product-info">
+          <h3>Gotta Edition</h3>
+          <span class="price">Rs. 2,450</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Gotta Edition" data-price="2450" data-img="product 1.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="chiffon">
+        <div class="product-media"><img src="product 2.jpg" alt="Peacock Edition"></div>
+        <div class="product-info">
+          <h3>Peacock Edition</h3>
+          <span class="price">Rs. 2,200</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Peacock Edition" data-price="2200" data-img="product 2.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="printed">
+        <div class="product-media"><img src="product 3.jpg" alt="Indian Chiffon"></div>
+        <div class="product-info">
+          <h3>Indian Chiffon</h3>
+          <span class="price">Rs. 1,999</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Indian Chiffon" data-price="1999" data-img="product 3.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="organza">
+        <div class="product-media"><img src="product 4.jpg" alt="Organza Royale"></div>
+        <div class="product-info">
+          <h3>Organza Royale</h3>
+          <span class="price">Rs. 1,999</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Organza Royale" data-price="1999" data-img="product 4.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="bridal" id="bridal">
+        <div class="product-media"><img src="product 5.jpg" alt="Silk Mirror"></div>
+        <div class="product-info">
+          <h3>Silk Mirror</h3>
+          <span class="price">Rs. 2,399</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Silk Mirror" data-price="2399" data-img="product 5.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="printed">
+        <div class="product-media"><img src="product 6.jpg" alt="Knit Sitara"></div>
+        <div class="product-info">
+          <h3>Knit Sitara</h3>
+          <span class="price">Rs. 2,550</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Knit Sitara" data-price="2550" data-img="product 6.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="printed">
+        <div class="product-media"><img src="product 7.jpg" alt="Rangrez By Sanira"></div>
+        <div class="product-info">
+          <h3>Rangrez By Sanira</h3>
+          <span class="price">Rs. 2,750</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Rangrez By Sanira" data-price="2750" data-img="product 7.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="product 8.jpg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Signature Knit</h3>
+          <span class="price">Rs. 2,499</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+
+<div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="New Arrival 1.jpeg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Indian Gradient Lilac </h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="New Arrival 2.jpeg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Indian Royale Green </h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="New Arrival 3.jpeg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Indian Gradient Ice Blue</h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="New Arrival 4.jpeg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Indian Shiny Black</h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="blue.jpg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Blue Embroidered Knit</h3>
+          <span class="price">Rs. 1,500</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="Qubool Hai .jpg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Qubool Hai Dupatta</h3>
+          <span class="price">Rs. 2,500</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+        </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="tie & dye.jpg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3> Chiffon Tie & Dye </h3>
+          <span class="price">Rs. 1,599</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+          </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="Royale Gold Green.jpg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3> Royale Gold Green</h3>
+          <span class="price">Rs. 2,599</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+         </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="hehnai .jpg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Shehnai Sheesha</h3>
+          <span class="price">Rs. 3,500</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><img src="New Arrival 7.jpeg" alt="Signature Knit"></div>
+        <div class="product-info">
+          <h3>Indian Maroon</h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><video src="vid 1.mp4" onmouseover="this.play()" onmouseout="this.pause()" muted ></video></div>
+        <div class="product-info">
+          <h3>Lilac Gradient </h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+       <div class="product-card reveal" data-category="bridal">
+        <div class="product-media"><video src="vid 2.mp4" onmouseover="this.play()" onmouseout="this.pause()" muted ></video></div>
+        <div class="product-info">
+          <h3>Royale Green</h3>
+          <span class="price">Rs. 7,099</span>
+          <button class="btn btn-primary" data-add-to-cart data-name="Signature Knit" data-price="3199" data-img="product 8.jpg">Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Sanira Clothing</h4>
+      <p style="max-width:320px;font-size:.88rem;line-height:1.6">Premium Dupattas Crafted with Elegance and Tradition.</p>
+      <div class="social-row">
+        <a href="https://www.facebook.com/srbysanira/" target="_blank" aria-label="Facebook">f</a>
+        <a href="https://www.instagram.com/sr_by_sanira/" target="_blank" aria-label="Instagram">ig</a>
+        <a href="https://www.tiktok.com/@sr.by.sanira" target="_blank" aria-label="TikTok">tt</a>
+        <a href="https://www.youtube.com/@SRBySanira" target="_blank" aria-label="YouTube">yt</a>
+      </div>
+    </div>
+    <div>
+      <h4 style="font-size:1rem">Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4 style="font-size:1rem">Contact</h4>
+      <a href="tel:03143551238">0314-3551238</a>
+      <a href="tel:03020239754">0302-0239754</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Sanira Clothing. All Rights Reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

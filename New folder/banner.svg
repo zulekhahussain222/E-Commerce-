@@ -1,0 +1,134 @@
+<svg viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sanira Clothing — flowing embroidered dupatta banner">
+<defs>
+  <linearGradient id="bgSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FBF3EC"/>
+    <stop offset="100%" stop-color="#F3E6DA"/>
+  </linearGradient>
+  <linearGradient id="fabric" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#8C2A38"/>
+    <stop offset="45%" stop-color="#7A1F2B"/>
+    <stop offset="100%" stop-color="#5E1620"/>
+  </linearGradient>
+  <linearGradient id="fabricSheer" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#C9707A" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#C9707A" stop-opacity="0.15"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="30%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#FFFDFB" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#FFFDFB" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect width="1400" height="560" fill="url(#bgSoft)"/>
+<rect width="1400" height="560" fill="url(#glow)"/>
+
+<g fill="none" stroke="#B78B4B" stroke-width="1" opacity="0.18">
+  <path d="M1180,80 C 1210,30 1270,34 1282,88 C 1292,132 1250,166 1204,152 C 1180,144 1170,110 1180,80 Z"/>
+  <path d="M120,420 C 145,378 198,382 210,428 C 220,466 184,496 144,484 C 122,478 112,448 120,420 Z"/>
+</g>
+
+<path d="M -40,410 C 260,330 520,470 800,380 C 1060,296 1240,420 1440,350
+         L 1440,470 C 1240,540 1060,416 800,500 C 520,590 260,450 -40,530 Z"
+      fill="url(#fabricSheer)"/>
+
+<path d="M -40,230
+         C 200,120 380,60 560,110
+         C 740,160 860,250 1040,190
+         C 1180,144 1300,60 1440,110
+         L 1440,250
+         C 1300,200 1180,284 1040,330
+         C 860,390 740,300 560,250
+         C 380,200 200,260 -40,370 Z"
+      fill="url(#fabric)"/>
+
+<g fill="none" stroke="#B78B4B" stroke-width="1.6" opacity="0.85">
+  <path d="M -20,238 C 200,130 380,70 560,120 C 740,170 860,258 1040,198 C 1180,152 1300,70 1420,118"/>
+</g>
+<g fill="#B78B4B" opacity="0.85">
+  <circle cx="120" cy="178" r="4"/>
+  <circle cx="300" cy="105" r="4"/>
+  <circle cx="470" cy="100" r="4"/>
+  <circle cx="650" cy="140" r="4"/>
+  <circle cx="820" cy="222" r="4"/>
+  <circle cx="990" cy="205" r="4"/>
+  <circle cx="1160" cy="118" r="4"/>
+  <circle cx="1330" cy="88" r="4"/>
+</g>
+
+<g opacity="0.9">
+  <g transform="translate(220,190) rotate(20)">
+    <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.6" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+  <g transform="translate(400,150) rotate(-12)">
+    <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.2" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+  <g transform="translate(600,190) rotate(8)">
+    <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.6" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+  <g transform="translate(780,255) rotate(-18)">
+    <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.2" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+  <g transform="translate(960,235) rotate(14)">
+    <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.6" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+  <g transform="translate(1140,165) rotate(-10)">
+    <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.2" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+  <g transform="translate(1300,110) rotate(22)">
+    <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="#F3E6DA" stroke-width="1.4"/>
+    <circle r="3.6" fill="#FFFDFB" opacity="0.85"/>
+  </g>
+</g>
+
+<g fill="none" stroke="#B78B4B" stroke-width="1.6" opacity="0.85">
+  <path d="M -20,362 C 200,258 380,198 560,248 C 740,298 860,388 1040,328 C 1180,282 1300,198 1420,246"/>
+</g>
+<g fill="#B78B4B" opacity="0.7">
+  <circle cx="160" cy="330" r="3.4"/>
+  <circle cx="340" cy="228" r="3.4"/>
+  <circle cx="520" cy="238" r="3.4"/>
+  <circle cx="700" cy="278" r="3.4"/>
+  <circle cx="880" cy="358" r="3.4"/>
+  <circle cx="1060" cy="308" r="3.4"/>
+  <circle cx="1240" cy="222" r="3.4"/>
+</g>
+
+<g stroke="#B78B4B" stroke-width="2" opacity="0.85">
+  <line x1="10" y1="255" x2="-40" y2="310"/>
+  <line x1="18" y1="272" x2="-32" y2="330"/>
+  <line x1="26" y1="290" x2="-24" y2="350"/>
+  <line x1="34" y1="308" x2="-16" y2="368"/>
+</g>
+<g fill="#8C2A38" opacity="0.9">
+  <circle cx="-40" cy="310" r="4"/>
+  <circle cx="-32" cy="330" r="4"/>
+  <circle cx="-24" cy="350" r="4"/>
+  <circle cx="-16" cy="368" r="4"/>
+</g>
+
+<g stroke="#B78B4B" stroke-width="2" opacity="0.85">
+  <line x1="1390" y1="105" x2="1440" y2="60"/>
+  <line x1="1382" y1="122" x2="1432" y2="80"/>
+  <line x1="1374" y1="140" x2="1424" y2="100"/>
+  <line x1="1366" y1="158" x2="1416" y2="120"/>
+</g>
+<g fill="#8C2A38" opacity="0.9">
+  <circle cx="1440" cy="60" r="4"/>
+  <circle cx="1432" cy="80" r="4"/>
+  <circle cx="1424" cy="100" r="4"/>
+  <circle cx="1416" cy="120" r="4"/>
+</g>
+
+<g opacity="0.5" stroke="#B78B4B" stroke-width="1.5">
+  <line x1="0" y1="18" x2="1400" y2="18"/>
+  <line x1="0" y1="542" x2="1400" y2="542"/>
+</g>
+
+<rect x="0" y="0" width="620" height="560" fill="#3A0F16" opacity="0.16"/>
+</svg>
